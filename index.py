@@ -36,6 +36,7 @@ while max(player_scores) < max_score:
       if value == 1:
         print("You rolled a 1! Turn Done.")
         current_score = 0
+        break
       else:
         current_score += value
         print("You rolled a:", value)
